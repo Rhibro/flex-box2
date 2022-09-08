@@ -1,0 +1,100 @@
+html {
+    background-color: rgb(238, 174, 65);
+}
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: rgb(238, 174, 65);
+}
+.box-one {
+        width: 273px;
+        height: 220px;
+        background-color: #03071E;
+        margin: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+        .box-one__box {
+            width: 50px;
+            height: 50px;
+            background-color: #748CAB;
+            border-radius: 50%;
+            margin: 10px;
+}
+.box-two {
+    width: 273px;
+    height: 220px;
+    background-color: #6A040F;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+            .box-two__box {
+            width: 50px;
+            height: 50px;
+            background-color: #748CAB;
+            border-radius: 50%;
+            margin: 10px;
+}
+.box-three {
+    width: 273px;
+    height: 220px;
+    background-color: #03071E;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+            .box-three__box {
+            width: 50px;
+            height: 50px;
+            background-color: #748CAB;
+            border-radius: 50%;
+            margin: 10px;
+}
+.box-four {
+    width: 273px;
+    height: 220px;
+    background-color: #6A040F;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+            .box-four__box {
+            width: 50px;
+            height: 50px;
+            background-color: #748CAB;
+            border-radius: 50%;
+            margin: 10px;
+}
+.box-five {
+    width: 273px;
+    height: 220px;
+    background-color: #03071E;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+            .box-five__box {
+            width: 50px;
+            height: 50px;
+            background-color: #748CAB;
+            border-radius: 50%;
+            margin: 10px;
+}
